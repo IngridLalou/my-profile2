@@ -1,0 +1,168 @@
+style.css
+#profile-picture-round {
+width: 50%;
+height: 50%;
+}
+
+
+body {
+	background:linear-gradient(90deg, #22577E 2%, #5584AC 35%, #95D1CC 91%);
+	font-family: arial;
+	font-size: 16px;
+}
+
+h1 {
+	color: #95DAC1;
+	font-family: 'Akronim', cursive;
+	font-family: 'Ephesis', cursive;
+	font-size: 62px;
+	text-align: center;
+
+}
+
+h2, h3,h4 {
+	color:  white;
+	font-family: 'Lato', sans-serif;
+	font-size: 32;
+	text-align: center;	
+}
+
+.title-blue {
+	color: lightblue;
+}
+
+p {
+	color:  #FD6F96;
+	font-family: 'Comfortaa', cursive;;
+	font-size: 16px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(120, 211, 250);
+	text-align: center;
+	font-family: arial;
+
+}
+
+a:hover {
+	color : white;
+	text-align: center;
+}
+
+#profile-photo-round {
+	width: 232px;
+	height: 232px;
+	border-radius: 50%;
+}
+
+.container {
+	width:  950px;
+	padding: 30px;
+	margin: 0 auto;
+	border-radius: 3px;
+	background: #F6F2D4;
+	text-align: center;
+}
+
+
+.card-white{
+	background-color: whitesmoke;
+	padding: 30px;
+	box-shadow: 10px 15px rgba(50, 50, 93, 0.1);
+	border-radius: 8px;
+	margin: 30px;
+}
+
+
+.bouton-bleu {
+	width: 500px;
+	height: 90px;
+	padding: 16px;
+	background: #6d72e1;
+	color: white;
+	border-radius: 6px;
+	margin: 30px;
+}
+
+.bouton-bleu:hover {
+	background: #6F69AC;
+}
+
+.list-inline{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: 40px;
+}
+
+.list-inline:hover{
+	font-size: 45px;
+}
+
+li{
+	margin-bottom: 15px;
+	display: inline;
+}
+
+#social-media-photo{
+	background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.3)10%),url(images/media-photo.jpg);
+	background-position: center;
+	background-size: 200px;
+}
+
+#design{
+	background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.3)10%),url(images/design-photo.jpeg);
+	background-position: center;
+	background-size: 700px;
+}
+
+#cook{
+	background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.3)90%),url(images/cuisine.jpeg);
+	background-position: center;
+	background-size: 900px;
+	
+}
+
+#moto{
+	background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.3)10%),url(images/moto.jpeg);
+	background-position: left;
+	background-size: 450px;
+}
+
+#moi{
+	background-image: linear-gradient(-225deg,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.3)10%), url(images/nature.jpeg);
+	background-size: 900px;
+}
+
+#space{
+	margin-bottom: 50px;
+}
+.word-green{
+	color: greenyellow;
+	font-size: 18px;
+	background: ;
+
+	/* media queries */
+}
+
+
+@media(max-width: 900px) {
+	.container {
+		width: 700px;
+	 }	
+}
+
+@media(max-width: 750px) {
+	.container{
+		width: 600px;
+	}
+}	
+
+@media(max-width: 600px) {
+	.container{
+		width: 400px;
+	}	
+}
+
