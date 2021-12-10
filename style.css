@@ -1,14 +1,7 @@
-style.css
+
 #profile-picture-round {
 width: 50%;
 height: 50%;
-}
-
-
-body {
-	background:linear-gradient(90deg, #22577E 2%, #5584AC 35%, #95D1CC 91%);
-	font-family: arial;
-	font-size: 16px;
 }
 
 h1 {
